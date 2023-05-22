@@ -1,0 +1,31 @@
+2022-12-27 10:43:53.8841 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@mail.com - at Tuesday, 27 December 2022 10:43 AM
+2022-12-27 10:56:10.8274 servr.integratex.ui.BDULoginForm User noman.sinup@mail.com login failed, try later or contact admin.
+2022-12-27 10:57:36.6868 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 27 December 2022 10:57 AM
+2022-12-27 11:38:18.2283 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Tuesday, 27 December 2022 11:38 AM 
+2022-12-27 11:55:49.8485 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 27 December 2022 11:55 AM
+2022-12-27 11:55:49.8630 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 27 December 2022 11:55 AM
+2022-12-27 12:16:58.7170 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 27 December 2022 12:16 PM
+2022-12-27 12:16:58.7170 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 27 December 2022 12:16 PM
+2022-12-27 12:17:08.9962 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 27 December 2022 12:17 PM
+2022-12-27 13:55:10.1027 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 27 December 2022 01:55 PM
+2022-12-27 15:41:29.1588 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 27 December 2022 03:41 PM
+2022-12-27 17:05:56.3634 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Tuesday, 27 December 2022 05:05 PM 
+2022-12-27 17:48:29.1797 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 27 December 2022 05:48 PM
+2022-12-27 17:48:29.1957 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 27 December 2022 05:48 PM
+2022-12-27 17:49:55.4939 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2022-12-27 17:52:04.9382 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in C:\movies\aii\BDM Core\frmMain.cs:line 217
+2022-12-27 18:15:47.0162 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 27 December 2022 06:15 PM
+2022-12-27 18:15:50.8424 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Tuesday, 27 December 2022 06:15 PM 
+2022-12-27 18:15:51.8010 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 27 December 2022 06:15 PM
+2022-12-27 18:15:51.8010 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 27 December 2022 06:15 PM
+2022-12-27 18:16:23.4497 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2022-12-27 18:16:39.5489 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in C:\movies\aii\BDM Core\frmMain.cs:line 217
+2022-12-27 18:18:49.2640 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 27 December 2022 06:18 PM
+2022-12-27 18:18:53.1560 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Tuesday, 27 December 2022 06:18 PM 
+2022-12-27 18:18:54.1449 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 27 December 2022 06:18 PM
+2022-12-27 18:18:54.1449 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 27 December 2022 06:18 PM
+2022-12-27 18:19:03.9235 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 27 December 2022 06:19 PM
+2022-12-27 18:19:03.9235 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 27 December 2022 06:19 PM
+2022-12-27 18:19:12.4612 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 27 December 2022 06:19 PM

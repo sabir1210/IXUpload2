@@ -1,0 +1,9 @@
+2022-11-28 10:29:35.5535 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Monday, 28 November 2022 10:29 AM
+2022-11-28 10:29:44.5179 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Monday, 28 November 2022 10:29 AM 
+2022-11-28 10:29:50.5382 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Monday, 28 November 2022 10:29 AM
+2022-11-28 10:29:50.5987 BDU.RobotWeb.WebHandler IX web login started running, at Monday, 28 November 2022 10:29 AM
+2022-11-28 10:29:50.6044 BDU.RobotWeb.WebSession Test run started, at 11/28/2022 5:29:50 AM
+2022-11-28 10:30:35.8827 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Monday, 28 November 2022 10:30 AM
+2022-11-28 10:30:35.8877 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Monday, 28 November 2022 10:30 AM
+2022-11-28 10:30:35.9048 BDU.RobotWeb.WebHandler Started capturing data, at Monday, 28 November 2022 10:30 AM
+2022-11-28 10:30:45.6370 servr.integratex.ui.frmMain IntegrateX started, at Monday, 28 November 2022 10:30 AM

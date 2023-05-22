@@ -1,0 +1,51 @@
+2023-02-13 15:38:59.4364 servr.integratex.ui.BDULoginForm Login attempted by user using account hotel1@yopmail.com - at Monday, 13 February 2023 03:38 PM
+2023-02-13 15:39:03.1430 servr.integratex.ui.BDULoginForm user - hotel1@yopmail.com, login time is Monday, 13 February 2023 03:39 PM 
+2023-02-13 15:39:05.2403 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 13 February 2023 03:39 PM
+2023-02-13 15:39:05.2865 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 13 February 2023 03:39 PM
+2023-02-13 15:39:16.9293 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2023-02-13 15:39:48.1828 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in D:\IX\aii\BDM Core\frmMain.cs:line 217
+2023-02-13 15:41:04.7784 servr.integratex.ui.BDULoginForm Login attempted by user using account hotel1@yopmail.com - at Monday, 13 February 2023 03:41 PM
+2023-02-13 15:41:08.6639 servr.integratex.ui.BDULoginForm user - hotel1@yopmail.com, login time is Monday, 13 February 2023 03:41 PM 
+2023-02-13 15:41:09.7484 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 13 February 2023 03:41 PM
+2023-02-13 15:41:09.7685 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 13 February 2023 03:41 PM
+2023-02-13 15:41:21.8431 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 13 February 2023 03:41 PM
+2023-02-13 15:41:21.8431 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 13 February 2023 03:41 PM
+2023-02-13 15:41:22.4616 BDU.RobotDesktop.DesktopHandler System.ArgumentNullException: Cannot find elements when the XPath expression is null. (Parameter 'xpathToFind')
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1434
+2023-02-13 15:41:23.8914 BDU.RobotDesktop.DesktopHandler System.ArgumentNullException: Cannot find elements when the XPath expression is null. (Parameter 'xpathToFind')
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1434
+2023-02-13 15:41:25.2225 BDU.RobotDesktop.DesktopHandler System.ArgumentNullException: Cannot find elements when the XPath expression is null. (Parameter 'xpathToFind')
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1434
+2023-02-13 15:41:26.5920 BDU.RobotDesktop.DesktopHandler System.ArgumentNullException: Cannot find elements when the XPath expression is null. (Parameter 'xpathToFind')
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1434
+2023-02-13 15:41:32.3219 servr.integratex.ui.frmMain IntegrateX started, at Monday, 13 February 2023 03:41 PM
+2023-02-13 15:41:53.2433 servr.integratex.ui.Login Login attempted by user using account hotel1@yopmail.com - at Monday, 13 February 2023 03:41 PM
+2023-02-13 15:41:54.4295 servr.integratex.ui.Login user - hotel1@yopmail.com, login time is Monday, 13 February 2023 03:41 PM 
+2023-02-13 15:46:18.2656 servr.integratex.ui.MappingForm Mapping save called, at Monday, 13 February 2023 03:46 PM
+2023-02-13 15:47:17.1344 servr.integratex.ui.MappingForm Mapping save & complete process started, at Monday, 13 February 2023 03:47 PM
+2023-02-13 15:47:20.5092 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Monday, 13 February 2023 03:47 PM
+2023-02-13 15:47:53.6725 servr.integratex.ui.BDULoginForm Login attempted by user using account hotel1@yopmail.com - at Monday, 13 February 2023 03:47 PM
+2023-02-13 15:47:58.3837 servr.integratex.ui.BDULoginForm user - hotel1@yopmail.com, login time is Monday, 13 February 2023 03:47 PM 
+2023-02-13 15:47:59.5416 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 13 February 2023 03:47 PM
+2023-02-13 15:47:59.5557 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 13 February 2023 03:47 PM
+2023-02-13 15:48:11.6969 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 13 February 2023 03:48 PM
+2023-02-13 15:48:11.6969 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 13 February 2023 03:48 PM
+2023-02-13 15:48:13.6951 BDU.RobotDesktop.DesktopHandler System.ArgumentNullException: Cannot find elements when the XPath expression is null. (Parameter 'xpathToFind')
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1434
+2023-02-13 15:48:15.5987 BDU.RobotDesktop.DesktopHandler System.ArgumentNullException: Cannot find elements when the XPath expression is null. (Parameter 'xpathToFind')
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1434
+2023-02-13 15:48:17.1397 BDU.RobotDesktop.DesktopHandler System.ArgumentNullException: Cannot find elements when the XPath expression is null. (Parameter 'xpathToFind')
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1434
+2023-02-13 15:48:23.6409 servr.integratex.ui.frmMain IntegrateX started, at Monday, 13 February 2023 03:48 PM
+2023-02-13 15:48:36.6039 servr.integratex.ui.Login Login attempted by user using account hotel1@yopmail.com - at Monday, 13 February 2023 03:48 PM
+2023-02-13 15:48:37.3096 servr.integratex.ui.Login Login attempted by user using account hotel1@yopmail.com - at Monday, 13 February 2023 03:48 PM
+2023-02-13 15:48:37.5753 servr.integratex.ui.Login user - hotel1@yopmail.com, login time is Monday, 13 February 2023 03:48 PM 
+2023-02-13 15:48:38.2736 servr.integratex.ui.Login user - hotel1@yopmail.com, login time is Monday, 13 February 2023 03:48 PM 

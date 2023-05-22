@@ -1,0 +1,839 @@
+2022-11-30 09:45:56.1482 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 09:45 AM
+2022-11-30 09:45:57.3300 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 09:45 AM 
+2022-11-30 09:45:57.4508 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 09:45 AM
+2022-11-30 09:45:58.5707 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 09:45 AM 
+2022-11-30 09:48:17.1843 servr.integratex.ui.BDULoginForm System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (bduapi.servrhotels.com:443)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at BDU.Services.BDUService.saveAppLog(List`1 logls, Int32 hotel_id) in C:\movies\aii\BDU.Services\BDUService.cs:line 1119
+   at servr.integratex.ui.BDULoginForm.btnLogin_Click(Object sender, EventArgs e) in C:\movies\aii\BDM Core\BDULoginForm.cs:line 58
+2022-11-30 09:49:08.4019 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 09:49 AM
+2022-11-30 09:49:11.4368 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 09:49 AM 
+2022-11-30 09:49:14.6409 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 09:49 AM
+2022-11-30 09:49:14.7217 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 09:49 AM
+2022-11-30 09:49:14.7217 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 4:49:14 AM
+2022-11-30 09:49:35.9515 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 09:49 AM
+2022-11-30 09:49:35.9556 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 09:49 AM
+2022-11-30 09:49:35.9773 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 09:49 AM
+2022-11-30 09:49:42.3387 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 09:49 AM
+2022-11-30 10:00:00.4330 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:00 AM
+2022-11-30 10:00:03.5626 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:00 AM 
+2022-11-30 10:00:17.7799 servr.integratex.ui.frmMain OpenQA.Selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at BDU.RobotWeb.WebSession..ctor(WebBrowser browser) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 23
+   at BDU.RobotWeb.WebHandler..ctor(MappingViewModel access) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 59
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in C:\movies\aii\BDM Core\frmMain.cs:line 259
+2022-11-30 10:00:38.9513 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:00 AM
+2022-11-30 10:00:41.9931 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:00 AM 
+2022-11-30 10:00:44.5033 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:00 AM
+2022-11-30 10:00:44.5371 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 10:00 AM
+2022-11-30 10:00:44.5407 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 5:00:44 AM
+2022-11-30 10:00:58.8467 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 10:00 AM
+2022-11-30 10:00:58.8467 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:00 AM
+2022-11-30 10:00:58.8639 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 10:00 AM
+2022-11-30 10:01:03.6560 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 10:01 AM
+2022-11-30 10:32:47.7052 BDU.RobotWeb.WebHandler OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:49825/session/f75a9827be71f391fb11e39760e71080/elements. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49825 (localhost:49825)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49825 (localhost:49825)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49825 (localhost:49825)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49825
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElements(By by)
+   at BDU.RobotWeb.WebHandler.<>c__DisplayClass77_0.<Driver_ElementClickCaptured>b__4(MappingDefinitionViewModel x) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 834
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotWeb.WebHandler.Driver_ElementClickCaptured(Object sender, WebElementCapturedMouseEventArgs e) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 834
+2022-11-30 10:36:25.2007 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:36 AM
+2022-11-30 10:36:26.1622 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:36 AM 
+2022-11-30 10:38:52.1976 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 10:38 AM
+2022-11-30 10:38:53.9294 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 10:38 AM
+2022-11-30 10:38:55.6338 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 10:38 AM
+2022-11-30 10:38:58.6510 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 10:38 AM
+2022-11-30 10:40:00.2803 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:40 AM
+2022-11-30 10:40:04.6235 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:40 AM 
+2022-11-30 10:40:07.9429 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:40 AM
+2022-11-30 10:40:08.0087 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 10:40 AM
+2022-11-30 10:40:08.0087 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 5:40:08 AM
+2022-11-30 10:40:18.5359 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 10:40 AM
+2022-11-30 10:40:18.5359 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:40 AM
+2022-11-30 10:40:18.5552 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 10:40 AM
+2022-11-30 10:40:24.0538 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 10:40 AM
+2022-11-30 10:41:07.4471 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:41 AM
+2022-11-30 10:41:08.4215 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:41 AM 
+2022-11-30 10:41:09.6450 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:41 AM
+2022-11-30 10:41:10.6379 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:41 AM 
+2022-11-30 10:41:52.5768 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 10:41 AM
+2022-11-30 10:41:55.4367 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 10:41 AM
+2022-11-30 10:42:48.4897 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:42 AM
+2022-11-30 10:42:51.5151 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:42 AM 
+2022-11-30 10:42:54.1507 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:42 AM
+2022-11-30 10:42:54.2256 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 10:42 AM
+2022-11-30 10:42:54.2313 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 5:42:54 AM
+2022-11-30 10:43:05.4970 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 10:43 AM
+2022-11-30 10:43:05.4970 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:43 AM
+2022-11-30 10:43:05.5145 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 10:43 AM
+2022-11-30 10:43:10.5662 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 10:43 AM
+2022-11-30 10:43:56.8599 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 10:43 AM
+2022-11-30 10:44:00.6056 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 5:44:00 AM
+2022-11-30 10:48:43.2384 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 10:48 AM
+2022-11-30 10:48:46.8590 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 10:48 AM 
+2022-11-30 10:48:49.5196 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:48 AM
+2022-11-30 10:48:49.5522 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 10:48 AM
+2022-11-30 10:48:49.5522 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 5:48:49 AM
+2022-11-30 10:49:08.2932 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 10:49 AM
+2022-11-30 10:49:08.2932 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 10:49 AM
+2022-11-30 10:49:08.3101 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 10:49 AM
+2022-11-30 10:49:13.6431 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 10:49 AM
+2022-11-30 11:03:51.6431 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:03 AM
+2022-11-30 11:03:52.6382 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:03 AM 
+2022-11-30 11:07:34.8058 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 11:07 AM
+2022-11-30 11:14:30.0384 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 11:14 AM
+2022-11-30 11:15:27.1774 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 11:15 AM
+2022-11-30 11:15:30.9948 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 11:15 AM
+2022-11-30 11:15:55.9816 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:15 AM
+2022-11-30 11:15:59.4922 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:15 AM 
+2022-11-30 11:16:01.9864 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:16 AM
+2022-11-30 11:16:02.0243 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 11:16 AM
+2022-11-30 11:16:02.0282 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 6:16:02 AM
+2022-11-30 11:16:18.4562 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 11:16 AM
+2022-11-30 11:16:18.4562 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:16 AM
+2022-11-30 11:16:18.4720 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 11:16 AM
+2022-11-30 11:16:23.6813 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 11:16 AM
+2022-11-30 11:17:46.6660 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 11:17 AM
+2022-11-30 11:17:47.5125 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 6:17:47 AM
+2022-11-30 11:21:50.3512 BDU.RobotWeb.WebSession OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id="reservationCheckInForm"]/div/div[1]/div/div[1]/div/button/div/div/div/[0].firstChild because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="reservationCheckInForm"]/div/div[1]/div/div[1]/div/button/div/div/div/[0].firstChild' is not a valid XPath expression.
+  (Session info: chrome=107.0.5304.122)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at BDU.RobotWeb.WebSession.FindFetchWebElement(EntityFieldViewModel field) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 2285
+2022-11-30 11:32:11.6145 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:15.2831 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:32 AM 
+2022-11-30 11:32:17.8064 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:17.8420 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:17.8420 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 6:32:17 AM
+2022-11-30 11:32:36.5353 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:36.5353 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:36.5510 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:41.7352 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:58.1949 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:32 AM
+2022-11-30 11:32:59.1630 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:32 AM 
+2022-11-30 11:34:30.7854 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 11:34 AM
+2022-11-30 11:34:32.1734 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 11:34 AM
+2022-11-30 11:34:35.7670 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 11:34 AM
+2022-11-30 11:36:40.1454 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:36 AM
+2022-11-30 11:36:43.7679 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:36 AM 
+2022-11-30 11:36:46.3079 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:36 AM
+2022-11-30 11:36:46.3410 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 11:36 AM
+2022-11-30 11:36:46.3410 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 6:36:46 AM
+2022-11-30 11:37:09.3809 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 11:37 AM
+2022-11-30 11:37:09.3842 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:37 AM
+2022-11-30 11:37:09.3842 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 11:37 AM
+2022-11-30 11:37:14.3603 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 11:37 AM
+2022-11-30 11:44:32.4519 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 11:44 AM
+2022-11-30 11:44:33.3480 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 6:44:33 AM
+2022-11-30 11:48:32.8999 BDU.RobotWeb.WebSession OpenQA.Selenium.WebDriverException: javascript error: $x is not defined
+  (Session info: chrome=107.0.5304.122)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebSession.RetrievalFormDataFromWeb(MappingViewModel fillableEntity) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 466
+2022-11-30 11:50:23.0930 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:50 AM
+2022-11-30 11:50:24.0438 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:50 AM 
+2022-11-30 11:52:52.2345 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:52 AM
+2022-11-30 11:52:55.7734 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:52 AM 
+2022-11-30 11:52:58.2760 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:52 AM
+2022-11-30 11:52:58.3083 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 11:52 AM
+2022-11-30 11:52:58.3083 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 6:52:58 AM
+2022-11-30 11:53:19.2173 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 11:53 AM
+2022-11-30 11:53:19.2173 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 11:53 AM
+2022-11-30 11:53:19.2318 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 11:53 AM
+2022-11-30 11:53:23.9273 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 11:53 AM
+2022-11-30 11:53:37.7371 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:53 AM
+2022-11-30 11:53:38.7287 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 11:53 AM
+2022-11-30 11:53:39.6679 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:53 AM 
+2022-11-30 11:53:41.8662 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 11:53 AM 
+2022-11-30 12:06:39.1539 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:06 PM
+2022-11-30 12:06:40.8122 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:06 PM
+2022-11-30 12:07:31.4966 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:07 PM
+2022-11-30 12:11:58.8162 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:11 PM
+2022-11-30 12:12:00.3132 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:12 PM
+2022-11-30 12:12:01.8621 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 12:12 PM
+2022-11-30 12:12:05.4709 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 12:12 PM
+2022-11-30 12:12:38.4546 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 12:12 PM
+2022-11-30 12:12:42.0413 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 12:12 PM 
+2022-11-30 12:12:44.5088 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 12:12 PM
+2022-11-30 12:12:44.5510 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 12:12 PM
+2022-11-30 12:12:44.5559 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 7:12:44 AM
+2022-11-30 12:13:01.2774 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 12:13 PM
+2022-11-30 12:13:01.2774 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 12:13 PM
+2022-11-30 12:13:01.2927 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 12:13 PM
+2022-11-30 12:13:06.6355 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 12:13 PM
+2022-11-30 12:13:23.7619 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 12:13 PM
+2022-11-30 12:13:23.7619 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 7:13:23 AM
+2022-11-30 12:13:35.4964 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 12:13 PM
+2022-11-30 12:15:50.5348 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 12:15 PM
+2022-11-30 12:15:51.5025 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 12:15 PM 
+2022-11-30 12:18:37.1744 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:18 PM
+2022-11-30 12:18:40.3131 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:18 PM
+2022-11-30 12:24:46.5305 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 12:24 PM
+2022-11-30 12:24:48.9963 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 12:24 PM
+2022-11-30 12:24:51.8120 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 12:24 PM
+2022-11-30 12:25:53.5937 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 12:25 PM
+2022-11-30 12:25:56.7041 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 12:25 PM 
+2022-11-30 12:25:59.5563 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 12:25 PM
+2022-11-30 12:25:59.5893 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 12:25 PM
+2022-11-30 12:25:59.5893 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 7:25:59 AM
+2022-11-30 12:26:14.5697 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 12:26 PM
+2022-11-30 12:26:14.5723 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 12:26 PM
+2022-11-30 12:26:14.5723 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 12:26 PM
+2022-11-30 12:26:19.0836 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 12:26 PM
+2022-11-30 12:26:54.0625 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 12:26 PM
+2022-11-30 12:26:54.0719 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 7:26:54 AM
+2022-11-30 12:27:08.9827 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 12:27 PM
+2022-11-30 12:28:00.2648 BDU.RobotWeb.WebHandler OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:49721/session/08c998de36cc0b6c3a6a73f6547c5313/execute/sync. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49721 (localhost:49721)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49721 (localhost:49721)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49721 (localhost:49721)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:49721
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebHandler.<>c__DisplayClass76_0.<SubmitAndScan>b__0(IWebDriver driverX) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebHandler.SubmitAndScan(Int32 scanEntity) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+2022-11-30 12:28:54.6000 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 12:28 PM
+2022-11-30 12:28:55.6018 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 12:28 PM 
+2022-11-30 12:33:38.1766 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 12:33 PM
+2022-11-30 12:33:41.2651 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 12:33 PM 
+2022-11-30 12:33:43.6772 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 12:33 PM
+2022-11-30 12:33:43.7141 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 12:33 PM
+2022-11-30 12:33:43.7141 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 7:33:43 AM
+2022-11-30 12:34:06.4759 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 12:34 PM
+2022-11-30 12:34:06.4783 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 12:34 PM
+2022-11-30 12:34:06.4783 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 12:34 PM
+2022-11-30 12:34:11.3887 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 12:34 PM
+2022-11-30 12:34:44.2901 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 12:34 PM
+2022-11-30 12:34:45.3508 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 7:34:45 AM
+2022-11-30 13:06:02.1942 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 01:06 PM
+2022-11-30 13:06:03.1141 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 01:06 PM 
+2022-11-30 13:07:49.5754 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 01:07 PM
+2022-11-30 13:07:51.1892 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 01:07 PM
+2022-11-30 13:07:54.0948 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 01:07 PM
+2022-11-30 13:23:07.8457 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 01:23 PM
+2022-11-30 13:23:11.1971 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 01:23 PM 
+2022-11-30 13:23:13.8561 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 01:23 PM
+2022-11-30 13:23:13.8930 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 01:23 PM
+2022-11-30 13:23:13.8930 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 8:23:13 AM
+2022-11-30 13:23:30.4992 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 01:23 PM
+2022-11-30 13:23:30.4992 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 01:23 PM
+2022-11-30 13:23:30.5134 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 01:23 PM
+2022-11-30 13:23:42.0260 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 01:23 PM
+2022-11-30 13:24:18.0429 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 01:24 PM
+2022-11-30 13:24:19.0015 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 01:24 PM 
+2022-11-30 13:44:10.1782 servr.integratex.ui.MappingForm New Field add process started, at Wednesday, 30 November 2022 01:44 PM
+2022-11-30 13:45:43.0902 servr.integratex.ui.MappingForm New Field add process started, at Wednesday, 30 November 2022 01:45 PM
+2022-11-30 13:48:47.9778 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 01:48 PM
+2022-11-30 13:48:49.2979 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 01:48 PM
+2022-11-30 13:48:50.5741 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 01:48 PM
+2022-11-30 13:48:52.4557 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 01:48 PM
+2022-11-30 13:48:55.9799 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 01:48 PM
+2022-11-30 13:49:50.3912 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 01:49 PM
+2022-11-30 13:49:53.9477 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 01:49 PM 
+2022-11-30 13:49:56.5486 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 01:49 PM
+2022-11-30 13:49:56.5809 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 01:49 PM
+2022-11-30 13:49:56.5809 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 8:49:56 AM
+2022-11-30 13:50:13.1273 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 01:50 PM
+2022-11-30 13:50:13.1273 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 01:50 PM
+2022-11-30 13:50:13.1457 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 01:50 PM
+2022-11-30 13:50:18.5200 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 01:50 PM
+2022-11-30 13:51:53.6045 BDU.RobotWeb.WebHandler OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:56600/session/8430c0752b771d3378f1516fee39207f/execute/sync. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:56600 (localhost:56600)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:56600 (localhost:56600)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:56600 (localhost:56600)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:56600
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebHandler.<>c__DisplayClass76_0.<SubmitAndScan>b__0(IWebDriver driverX) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebHandler.SubmitAndScan(Int32 scanEntity) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+2022-11-30 13:52:44.1058 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 01:52 PM
+2022-11-30 13:52:48.5650 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 8:52:48 AM
+2022-11-30 15:05:30.6126 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 03:05 PM
+2022-11-30 15:05:31.2494 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 03:05 PM
+2022-11-30 15:05:31.5581 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 03:05 PM 
+2022-11-30 15:05:32.1831 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 03:05 PM 
+2022-11-30 15:07:23.6706 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 03:07 PM
+2022-11-30 15:07:33.6238 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 03:07 PM
+2022-11-30 15:07:36.4568 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 03:07 PM
+2022-11-30 15:13:04.7549 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 03:13 PM
+2022-11-30 15:13:08.3399 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 03:13 PM 
+2022-11-30 15:13:12.1943 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 03:13 PM
+2022-11-30 15:13:12.2654 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 03:13 PM
+2022-11-30 15:13:12.2654 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 10:13:12 AM
+2022-11-30 15:13:31.0346 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 03:13 PM
+2022-11-30 15:13:31.0412 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 03:13 PM
+2022-11-30 15:13:31.0610 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:13 PM
+2022-11-30 15:13:41.1400 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 03:13 PM
+2022-11-30 15:14:08.3157 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 03:14 PM
+2022-11-30 15:14:08.3281 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 10:14:08 AM
+2022-11-30 15:14:18.6731 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:14 PM
+2022-11-30 15:15:16.1823 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 03:15 PM
+2022-11-30 15:15:17.6595 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 10:15:17 AM
+2022-11-30 15:18:11.4748 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 03:18 PM
+2022-11-30 15:18:12.5564 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 03:18 PM 
+2022-11-30 15:26:46.2086 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 03:26 PM
+2022-11-30 15:26:47.8722 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 03:26 PM
+2022-11-30 15:26:50.8869 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 03:26 PM
+2022-11-30 15:29:09.3101 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 03:29 PM
+2022-11-30 15:29:12.8604 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 03:29 PM 
+2022-11-30 15:29:15.9037 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 03:29 PM
+2022-11-30 15:29:15.9728 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 03:29 PM
+2022-11-30 15:29:15.9807 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 10:29:15 AM
+2022-11-30 15:29:33.1391 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 03:29 PM
+2022-11-30 15:29:33.1391 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 03:29 PM
+2022-11-30 15:29:33.1619 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:29 PM
+2022-11-30 15:29:39.4599 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 03:29 PM
+2022-11-30 15:30:23.3185 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 03:30 PM
+2022-11-30 15:30:23.3304 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 10:30:23 AM
+2022-11-30 15:30:38.3629 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:30 PM
+2022-11-30 15:32:45.0567 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 03:32 PM
+2022-11-30 15:32:45.0567 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 10:32:45 AM
+2022-11-30 15:33:43.3932 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 03:33 PM
+2022-11-30 15:33:43.3932 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 10:33:43 AM
+2022-11-30 15:34:00.2379 BDU.RobotWeb.WebSession OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:53929/session/1c19aac6a788ad19c8e939f21d0136d1/execute/sync. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:53929 (localhost:53929)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:53929 (localhost:53929)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:53929 (localhost:53929)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:53929
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebSession.<>c__DisplayClass34_0.<FindFetchWebElement>b__2(IWebDriver driver1) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 2323
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebSession.FindFetchWebElement(EntityFieldViewModel field) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 2323
+2022-11-30 15:34:13.1700 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:34 PM
+2022-11-30 15:35:03.0897 servr.integratex.ui.frmMain System.Exception: Reservation data persist in database failed
+   at BDU.Services.SQLiteDbManager.InsertSQLiteData(MappingViewModel model, Boolean force) in C:\movies\aii\BDU.Services\SQLiteDbManager.cs:line 523
+   at servr.integratex.ui.frmMain.CMSLongRunningTask() in C:\movies\aii\BDM Core\frmMain.cs:line 1006
+2022-11-30 15:37:30.6309 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 03:37 PM
+2022-11-30 15:37:30.6309 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 10:37:30 AM
+2022-11-30 15:37:51.5544 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:37 PM
+2022-11-30 15:46:24.4095 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 03:46 PM
+2022-11-30 15:46:25.6756 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 03:46 PM 
+2022-11-30 15:56:06.9230 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 03:56 PM
+2022-11-30 15:56:10.1577 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 03:56 PM 
+2022-11-30 15:56:12.7429 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 03:56 PM
+2022-11-30 15:56:12.7724 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 03:56 PM
+2022-11-30 15:56:12.7764 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 10:56:12 AM
+2022-11-30 15:56:26.3712 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 03:56 PM
+2022-11-30 15:56:26.3712 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 03:56 PM
+2022-11-30 15:56:26.3868 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:56 PM
+2022-11-30 15:56:30.9946 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 03:56 PM
+2022-11-30 15:57:28.0572 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 03:57 PM
+2022-11-30 15:57:28.0572 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 10:57:28 AM
+2022-11-30 15:57:45.7872 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 03:57 PM
+2022-11-30 16:01:20.2638 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 04:01 PM
+2022-11-30 16:01:21.2954 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 04:01 PM 
+2022-11-30 16:02:38.9266 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 04:02 PM
+2022-11-30 16:02:40.8701 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 04:02 PM
+2022-11-30 16:02:43.8140 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 04:02 PM
+2022-11-30 16:02:46.8743 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 04:02 PM
+2022-11-30 16:03:34.3606 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 04:03 PM
+2022-11-30 16:03:37.7338 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 04:03 PM 
+2022-11-30 16:03:40.4336 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 04:03 PM
+2022-11-30 16:03:40.4851 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 04:03 PM
+2022-11-30 16:03:40.4851 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 11:03:40 AM
+2022-11-30 16:03:55.0630 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 04:03 PM
+2022-11-30 16:03:55.0630 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 04:03 PM
+2022-11-30 16:03:55.0779 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 04:03 PM
+2022-11-30 16:04:00.0041 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 04:04 PM
+2022-11-30 16:04:42.0243 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 04:04 PM
+2022-11-30 16:04:42.0243 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 11:04:42 AM
+2022-11-30 16:04:55.5357 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 04:04 PM
+2022-11-30 17:37:00.2829 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 05:37 PM
+2022-11-30 17:37:03.5546 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 05:37 PM 
+2022-11-30 17:37:07.5438 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 05:37 PM
+2022-11-30 17:37:07.6086 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 05:37 PM
+2022-11-30 17:37:07.6086 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 12:37:07 PM
+2022-11-30 17:37:24.9233 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 05:37 PM
+2022-11-30 17:37:24.9233 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 05:37 PM
+2022-11-30 17:37:24.9464 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 05:37 PM
+2022-11-30 17:37:30.4269 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 05:37 PM
+2022-11-30 17:39:07.8013 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 05:39 PM
+2022-11-30 17:39:09.0825 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 12:39:09 PM
+2022-11-30 17:51:27.6088 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 05:51 PM
+2022-11-30 17:51:31.0504 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 12:51:31 PM
+2022-11-30 17:59:24.4489 servr.integratex.ui.frmMain System.Exception: Reservation data persist in database failed
+   at BDU.Services.SQLiteDbManager.InsertSQLiteData(MappingViewModel model, Boolean force) in C:\movies\aii\BDU.Services\SQLiteDbManager.cs:line 523
+   at servr.integratex.ui.frmMain.CMSLongRunningTask() in C:\movies\aii\BDM Core\frmMain.cs:line 1006
+2022-11-30 18:01:14.6407 servr.integratex.ui.Login Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 06:01 PM
+2022-11-30 18:01:15.6050 servr.integratex.ui.Login user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 06:01 PM 
+2022-11-30 18:02:01.5816 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 06:02 PM
+2022-11-30 18:02:03.9824 servr.integratex.ui.MappingForm Mapping save called, at Wednesday, 30 November 2022 06:02 PM
+2022-11-30 18:02:06.1784 servr.integratex.ui.MappingForm Mapping save & complete process started, at Wednesday, 30 November 2022 06:02 PM
+2022-11-30 18:02:09.0342 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Wednesday, 30 November 2022 06:02 PM
+2022-11-30 18:02:59.9937 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Wednesday, 30 November 2022 06:02 PM
+2022-11-30 18:03:03.0616 servr.integratex.ui.BDULoginForm user - pmsStaging@yopmail.com, login time is Wednesday, 30 November 2022 06:03 PM 
+2022-11-30 18:03:05.9250 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 06:03 PM
+2022-11-30 18:03:05.9869 BDU.RobotWeb.WebHandler IX web login started running, at Wednesday, 30 November 2022 06:03 PM
+2022-11-30 18:03:05.9869 BDU.RobotWeb.WebSession Test run started, at 11/30/2022 1:03:05 PM
+2022-11-30 18:03:22.1351 BDU.RobotWeb.WebHandler IntegrateX web login has completed successfully, at Wednesday, 30 November 2022 06:03 PM
+2022-11-30 18:03:22.1351 BDU.RobotWeb.WebHandler IntegrateX Web AI engine started.., at- Wednesday, 30 November 2022 06:03 PM
+2022-11-30 18:03:22.1518 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 06:03 PM
+2022-11-30 18:03:27.2537 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 30 November 2022 06:03 PM
+2022-11-30 18:05:03.3333 BDU.RobotWeb.WebHandler OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:51795/session/81e248df232114a7c5a5012bb0022b1c/execute/sync. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebHandler.<>c__DisplayClass76_0.<SubmitAndScan>b__0(IWebDriver driverX) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebHandler.SubmitAndScan(Int32 scanEntity) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+2022-11-30 18:05:25.8665 BDU.RobotWeb.WebHandler OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:51795/session/81e248df232114a7c5a5012bb0022b1c/execute/sync. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebHandler.<>c__DisplayClass76_0.<SubmitAndScan>b__0(IWebDriver driverX) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebHandler.SubmitAndScan(Int32 scanEntity) in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 696
+2022-11-30 18:05:54.4842 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 06:05 PM
+2022-11-30 18:05:54.4842 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 1:05:54 PM
+2022-11-30 18:06:00.6147 BDU.RobotWeb.WebSession OpenQA.Selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.122)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()
+   at BDU.RobotWeb.WebSession.RetrievalFormDataFromWeb(MappingViewModel fillableEntity) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 595
+2022-11-30 18:06:06.1695 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 06:06 PM
+2022-11-30 18:08:27.4397 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 06:08 PM
+2022-11-30 18:08:27.4397 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 1:08:27 PM
+2022-11-30 18:15:21.1340 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 06:15 PM
+2022-11-30 18:15:21.1340 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 1:15:21 PM
+2022-11-30 18:15:23.5888 BDU.RobotWeb.WebSession OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:51795/session/81e248df232114a7c5a5012bb0022b1c/element. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at BDU.RobotWeb.WebSession.FindFetchWebElement(EntityFieldViewModel field) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 2285
+2022-11-30 18:15:23.7082 BDU.RobotWeb.WebSession OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:51795/session/81e248df232114a7c5a5012bb0022b1c/element/active. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.ActiveElement()
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringTargetLocator.ActiveElement()
+   at BDU.RobotWeb.WebSession.RetrievalFormDataFromWeb(MappingViewModel fillableEntity) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 644
+2022-11-30 18:15:46.6218 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 06:15 PM
+2022-11-30 18:15:46.6218 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 1:15:46 PM
+2022-11-30 18:15:53.1104 BDU.RobotWeb.WebSession OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:51795/session/81e248df232114a7c5a5012bb0022b1c/execute/sync. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebSession.<>c__DisplayClass34_0.<FindFetchWebElement>b__2(IWebDriver driver1) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 2323
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebSession.FindFetchWebElement(EntityFieldViewModel field) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 2323
+2022-11-30 18:15:54.9274 BDU.RobotWeb.WebSession OpenQA.Selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.122)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()
+   at BDU.RobotWeb.WebSession.RetrievalFormDataFromWeb(MappingViewModel fillableEntity) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 595
+2022-11-30 18:16:04.1504 BDU.RobotWeb.WebHandler Started capturing data, at Wednesday, 30 November 2022 06:16 PM
+2022-11-30 18:16:04.2650 BDU.RobotWeb.WebHandler OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:51795/session/81e248df232114a7c5a5012bb0022b1c/url. The status of the exception was UnknownError, and the message was: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.WebException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Http.HttpRequestException: Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795 (localhost:51795)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted. [::ffff:127.0.0.1]:51795
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringNavigation.GoToUrl(String url)
+   at BDU.RobotWeb.WebHandler.StartCapturing() in C:\movies\aii\BDU.RobotWeb\WebHandler.cs:line 584
+2022-11-30 18:34:45.2912 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 06:34 PM
+2022-11-30 18:34:45.2912 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 1:34:45 PM
+2022-11-30 18:34:55.0222 BDU.RobotWeb.WebSession OpenQA.Selenium.UnhandledAlertException: unexpected alert open: {Alert text : Signature is required!}
+  (Session info: chrome=107.0.5304.122)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebSession.<RetrievalFormDataFromWeb>b__22_6(IWebDriver driverX) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 597
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebSession.RetrievalFormDataFromWeb(MappingViewModel fillableEntity) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 597
+2022-11-30 18:43:10.4395 BDU.RobotWeb.WebHandler Entity  data scan started, at Wednesday, 30 November 2022 06:43 PM
+2022-11-30 18:43:10.4395 BDU.RobotWeb.WebSession Data retreival process started, at 11/30/2022 1:43:10 PM
+2022-11-30 18:43:18.1815 BDU.RobotWeb.WebSession OpenQA.Selenium.UnhandledAlertException: unexpected alert open: {Alert text : Signature is required!}
+  (Session info: chrome=107.0.5304.122)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)
+   at BDU.RobotWeb.WebSession.<RetrievalFormDataFromWeb>b__22_6(IWebDriver driverX) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 597
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotWeb.WebSession.RetrievalFormDataFromWeb(MappingViewModel fillableEntity) in C:\movies\aii\BDU.RobotWeb\WebSession.cs:line 597
+2022-11-30 18:44:06.4231 servr.integratex.ui.frmMain System.Exception: Reservation data persist in database failed
+   at BDU.Services.SQLiteDbManager.InsertSQLiteData(MappingViewModel model, Boolean force) in C:\movies\aii\BDU.Services\SQLiteDbManager.cs:line 523
+   at servr.integratex.ui.frmMain.CMSLongRunningTask() in C:\movies\aii\BDM Core\frmMain.cs:line 1006

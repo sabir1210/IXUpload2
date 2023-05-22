@@ -1,0 +1,31 @@
+2023-02-08 20:55:48.8526 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Wednesday, 08 February 2023 08:55 pm
+2023-02-08 20:55:52.9590 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Wednesday, 08 February 2023 08:55 pm 
+2023-02-08 20:55:56.2034 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 08 February 2023 08:55 pm
+2023-02-08 20:55:56.3326 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 08 February 2023 08:55 pm
+2023-02-08 20:56:08.3949 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 08 February 2023 08:56 pm
+2023-02-08 20:56:08.4057 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 08 February 2023 08:56 pm
+2023-02-08 20:56:21.6136 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 08 February 2023 08:56 pm
+2023-02-08 20:58:52.0745 servr.integratex.ui.frmMain Logged out from IntegrateX, at Wednesday, 08 February 2023 08:58 pm
+2023-02-08 20:58:52.2390 BDU.RobotDesktop.DesktopHandler PMS Server stopped, at Wednesday, 08 February 2023 08:58 pm
+2023-02-08 20:58:52.3189 BDU.RobotDesktop.DesktopHandler System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BDU.RobotDesktop.DesktopHandler.StopServer() in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1651
+2023-02-08 21:00:36.4003 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Wednesday, 08 February 2023 09:00 pm
+2023-02-08 21:00:40.0590 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Wednesday, 08 February 2023 09:00 pm 
+2023-02-08 21:00:41.4775 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 08 February 2023 09:00 pm
+2023-02-08 21:00:41.4977 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 08 February 2023 09:00 pm
+2023-02-08 21:00:51.5677 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 08 February 2023 09:00 pm
+2023-02-08 21:00:51.5929 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 08 February 2023 09:00 pm
+2023-02-08 21:01:06.9136 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 08 February 2023 09:01 pm
+2023-02-08 21:09:51.1710 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Wednesday, 08 February 2023 09:09 pm
+2023-02-08 21:09:57.4987 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Wednesday, 08 February 2023 09:09 pm 
+2023-02-08 21:09:58.8876 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 08 February 2023 09:09 pm
+2023-02-08 21:09:58.9131 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 08 February 2023 09:09 pm
+2023-02-08 21:10:09.5695 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 08 February 2023 09:10 pm
+2023-02-08 21:10:09.5695 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 08 February 2023 09:10 pm
+2023-02-08 21:10:22.5040 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 08 February 2023 09:10 pm
+2023-02-08 21:12:01.5931 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Wednesday, 08 February 2023 09:12 pm
+2023-02-08 21:12:01.6148 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 08/02/2023 9:12:01 pm
+2023-02-08 21:13:24.6249 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent to IntegrateX, at Wednesday, 08 February 2023 09:13 pm
+2023-02-08 21:14:42.4672 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Wednesday, 08 February 2023 09:14 pm
+2023-02-08 21:14:43.5499 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Wednesday, 08 February 2023 09:14 pm 
+2023-02-08 21:18:42.5005 servr.integratex.ui.MappingForm New Field add process started, at Wednesday, 08 February 2023 09:18 pm

@@ -1,0 +1,100 @@
+2023-02-06 11:11:20.7833 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 11:11 am
+2023-02-06 11:11:33.3767 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Monday, 06 February 2023 11:11 am 
+2023-02-06 11:11:35.7711 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 06 February 2023 11:11 am
+2023-02-06 11:11:35.8465 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 06 February 2023 11:11 am
+2023-02-06 11:11:46.2834 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 06 February 2023 11:11 am
+2023-02-06 11:11:46.2834 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 06 February 2023 11:11 am
+2023-02-06 11:11:55.5072 servr.integratex.ui.frmMain IntegrateX started, at Monday, 06 February 2023 11:11 am
+2023-02-06 11:12:35.2914 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 11:12 am
+2023-02-06 11:12:36.3192 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Monday, 06 February 2023 11:12 am 
+2023-02-06 11:14:13.9595 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:14 am
+2023-02-06 11:14:33.0699 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 11:14 am
+2023-02-06 11:20:53.1849 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:20 am
+2023-02-06 11:20:54.5264 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:20 am
+2023-02-06 11:20:55.8228 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:20 am
+2023-02-06 11:21:07.4005 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 11:21 am
+2023-02-06 11:36:41.0054 BDU.RobotDesktop.DesktopHandler System.NullReferenceException: Object reference not set to an instance of an object.
+   at BDU.RobotDesktop.DesktopHandler.SetElement(AppiumWebElement element, EntityFieldViewModel fld) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 3816
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1562
+2023-02-06 11:51:15.9232 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:51 am
+2023-02-06 11:51:17.4359 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:51 am
+2023-02-06 11:51:18.7961 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:51 am
+2023-02-06 11:51:20.4529 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 11:51 am
+2023-02-06 11:51:32.0685 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 11:51 am
+2023-02-06 11:51:51.5955 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1515
+2023-02-06 13:03:30.9220 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 01:03 pm
+2023-02-06 13:03:34.0548 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Monday, 06 February 2023 01:03 pm 
+2023-02-06 13:03:35.0518 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 06 February 2023 01:03 pm
+2023-02-06 13:03:35.0660 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 06 February 2023 01:03 pm
+2023-02-06 13:03:46.6472 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 06 February 2023 01:03 pm
+2023-02-06 13:03:46.6472 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 06 February 2023 01:03 pm
+2023-02-06 13:03:55.2054 servr.integratex.ui.frmMain IntegrateX started, at Monday, 06 February 2023 01:03 pm
+2023-02-06 13:04:33.0933 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 01:04 pm
+2023-02-06 13:04:33.5181 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 01:04 pm
+2023-02-06 13:04:34.0747 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Monday, 06 February 2023 01:04 pm 
+2023-02-06 13:04:34.4938 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Monday, 06 February 2023 01:04 pm 
+2023-02-06 13:07:33.7766 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:07 pm
+2023-02-06 13:07:35.9018 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:07 pm
+2023-02-06 13:10:41.0916 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:10 pm
+2023-02-06 13:10:47.9165 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1515
+2023-02-06 13:11:10.4606 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:11 pm
+2023-02-06 13:11:17.3658 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1515
+2023-02-06 13:11:47.0464 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:11 pm
+2023-02-06 13:11:53.9939 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1515
+2023-02-06 13:13:48.0938 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:13 pm
+2023-02-06 13:13:54.7893 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1515
+2023-02-06 13:14:02.4846 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:14 pm
+2023-02-06 13:14:03.9591 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:14 pm
+2023-02-06 13:14:12.5641 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:14 pm
+2023-02-06 13:14:14.3279 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:14 pm
+2023-02-06 13:14:21.0735 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1515
+2023-02-06 13:14:45.8056 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:14 pm
+2023-02-06 13:14:52.6326 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1515
+2023-02-06 13:15:22.2790 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:15 pm
+2023-02-06 13:15:36.2456 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:15 pm
+2023-02-06 13:17:28.1074 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 01:17 pm
+2023-02-06 13:17:31.2756 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Monday, 06 February 2023 01:17 pm 
+2023-02-06 13:17:32.7005 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 06 February 2023 01:17 pm
+2023-02-06 13:17:32.7151 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 06 February 2023 01:17 pm
+2023-02-06 13:17:41.2403 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Monday, 06 February 2023 01:17 pm
+2023-02-06 13:17:41.2513 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Monday, 06 February 2023 01:17 pm
+2023-02-06 13:17:49.4674 servr.integratex.ui.frmMain IntegrateX started, at Monday, 06 February 2023 01:17 pm
+2023-02-06 13:18:27.8768 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 01:18 pm
+2023-02-06 13:18:28.4247 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Monday, 06 February 2023 01:18 pm
+2023-02-06 13:18:28.8248 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Monday, 06 February 2023 01:18 pm 
+2023-02-06 13:18:29.3256 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Monday, 06 February 2023 01:18 pm 
+2023-02-06 13:20:12.8696 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:20 pm
+2023-02-06 13:20:14.2687 servr.integratex.ui.MappingForm Mapping save called, at Monday, 06 February 2023 01:20 pm
+2023-02-06 13:20:28.6075 servr.integratex.ui.MappingForm Test run started, at Monday, 06 February 2023 01:20 pm
+2023-02-06 13:30:12.1033 BDU.RobotDesktop.DesktopHandler System.InvalidOperationException: Invalid XPath expression: //tr[contains('PRINTFIL')]//td[2] (XPathLookupError)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElements(By by)
+   at BDU.RobotDesktop.DesktopHandler.SetElement(AppiumWebElement element, EntityFieldViewModel fld)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill)

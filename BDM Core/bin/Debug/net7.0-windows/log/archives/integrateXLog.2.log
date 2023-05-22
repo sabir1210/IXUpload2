@@ -1,0 +1,63 @@
+2022-12-23 09:57:05.9344 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Friday, 23 December 2022 09:57 AM
+2022-12-23 09:57:09.0822 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Friday, 23 December 2022 09:57 AM 
+2022-12-23 09:57:11.1390 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 23 December 2022 09:57 AM
+2022-12-23 09:57:11.1593 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 23 December 2022 09:57 AM
+2022-12-23 09:57:20.5629 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 23 December 2022 09:57 AM
+2022-12-23 09:57:20.5629 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 23 December 2022 09:57 AM
+2022-12-23 09:57:42.6784 servr.integratex.ui.frmMain IntegrateX started, at Friday, 23 December 2022 09:57 AM
+2022-12-23 09:59:03.6200 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Friday, 23 December 2022 09:59 AM
+2022-12-23 09:59:03.6200 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/23/2022 9:59:03 AM
+2022-12-23 09:59:27.9873 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Friday, 23 December 2022 09:59 AM
+2022-12-23 10:54:10.6593 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Friday, 23 December 2022 10:54 AM
+2022-12-23 10:54:10.6593 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/23/2022 10:54:10 AM
+2022-12-23 10:54:35.2587 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Friday, 23 December 2022 10:54 AM
+2022-12-23 12:48:26.8155 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Friday, 23 December 2022 12:48 PM
+2022-12-23 12:48:26.8155 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/23/2022 12:48:26 PM
+2022-12-23 12:48:51.7386 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Friday, 23 December 2022 12:48 PM
+2022-12-23 18:11:10.8521 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Friday, 23 December 2022 06:11 PM
+2022-12-23 18:11:12.0262 servr.integratex.ui.BDULoginForm User gm@nandinibali.com login failed, try later or contact admin.
+2022-12-23 18:11:43.3670 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Friday, 23 December 2022 06:11 PM
+2022-12-23 18:11:47.6168 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Friday, 23 December 2022 06:11 PM 
+2022-12-23 18:11:50.1370 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 23 December 2022 06:11 PM
+2022-12-23 18:11:50.1370 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 23 December 2022 06:11 PM
+2022-12-23 18:12:02.3967 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 23 December 2022 06:12 PM
+2022-12-23 18:12:02.4040 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 23 December 2022 06:12 PM
+2022-12-23 18:12:15.2890 servr.integratex.ui.frmMain IntegrateX started, at Friday, 23 December 2022 06:12 PM
+2022-12-23 18:12:39.9333 servr.integratex.ui.Login Login attempted by user using account noman.sinup@gmail.com - at Friday, 23 December 2022 06:12 PM
+2022-12-23 18:12:41.1213 servr.integratex.ui.Login user - noman.sinup@gmail.com, login time is Friday, 23 December 2022 06:12 PM 
+2022-12-23 18:12:42.6470 servr.integratex.ui.Login Login attempted by user using account noman.sinup@gmail.com - at Friday, 23 December 2022 06:12 PM
+2022-12-23 18:12:42.8618 servr.integratex.ui.Login Login attempted by user using account noman.sinup@gmail.com - at Friday, 23 December 2022 06:12 PM
+2022-12-23 18:12:43.8096 servr.integratex.ui.Login user - noman.sinup@gmail.com, login time is Friday, 23 December 2022 06:12 PM 
+2022-12-23 18:12:44.0598 servr.integratex.ui.Login user - noman.sinup@gmail.com, login time is Friday, 23 December 2022 06:12 PM 
+2022-12-23 18:18:56.8086 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Friday, 23 December 2022 06:18 PM
+2022-12-23 18:18:56.8086 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/23/2022 6:18:56 PM
+2022-12-23 18:19:03.6502 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-23 18:20:25.2679 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Friday, 23 December 2022 06:20 PM
+2022-12-23 18:20:25.2679 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/23/2022 6:20:25 PM
+2022-12-23 18:20:36.4737 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-23 18:22:09.8911 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 180 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1282
+2022-12-23 18:25:06.7435 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Friday, 23 December 2022 06:25 PM
+2022-12-23 18:25:10.9423 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Friday, 23 December 2022 06:25 PM 
+2022-12-23 18:25:12.0324 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 23 December 2022 06:25 PM
+2022-12-23 18:25:12.0423 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 23 December 2022 06:25 PM
+2022-12-23 18:25:23.0290 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 23 December 2022 06:25 PM
+2022-12-23 18:25:23.0290 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 23 December 2022 06:25 PM
+2022-12-23 18:25:33.5822 servr.integratex.ui.frmMain IntegrateX started, at Friday, 23 December 2022 06:25 PM
+2022-12-23 18:26:11.2525 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Friday, 23 December 2022 06:26 PM
+2022-12-23 18:26:11.2592 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/23/2022 6:26:11 PM
+2022-12-23 18:26:48.9074 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Friday, 23 December 2022 06:26 PM

@@ -1,0 +1,212 @@
+2023-01-17 10:56:10.5290 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 17 January 2023 10:56 am
+2023-01-17 10:56:15.4130 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Tuesday, 17 January 2023 10:56 am 
+2023-01-17 10:56:17.3430 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 10:56 am
+2023-01-17 10:56:17.4151 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 10:56 am
+2023-01-17 10:56:20.3573 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2023-01-17 10:56:31.9644 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in D:\IX\aii\BDM Core\frmMain.cs:line 217
+2023-01-17 10:57:30.6239 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 17 January 2023 10:57 am
+2023-01-17 10:57:35.1724 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Tuesday, 17 January 2023 10:57 am 
+2023-01-17 10:57:36.6142 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 10:57 am
+2023-01-17 10:57:36.6345 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 10:57 am
+2023-01-17 11:13:46.2790 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 17 January 2023 11:13 am
+2023-01-17 11:13:50.1235 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Tuesday, 17 January 2023 11:13 am 
+2023-01-17 11:13:51.7991 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 11:13 am
+2023-01-17 11:13:51.8422 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 11:13 am
+2023-01-17 11:14:54.8974 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 11:14 am
+2023-01-17 11:14:54.8974 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 11:14 am
+2023-01-17 11:15:29.9288 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 17 January 2023 11:15 am
+2023-01-17 12:31:41.4915 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 12:31 pm
+2023-01-17 12:31:44.6835 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 12:31 pm 
+2023-01-17 12:31:51.5815 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 12:31 pm
+2023-01-17 12:31:51.5815 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 12:31 pm
+2023-01-17 12:32:11.3813 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 12:32 pm
+2023-01-17 12:32:11.3813 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 12:32 pm
+2023-01-17 12:32:54.3905 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 17 January 2023 12:32 pm
+2023-01-17 12:33:40.3709 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 12:33 pm
+2023-01-17 12:33:41.3424 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 12:33 pm 
+2023-01-17 12:50:52.5098 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 12:50 pm
+2023-01-17 12:50:53.4814 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 12:50 pm 
+2023-01-17 12:52:25.4998 servr.integratex.ui.MappingForm Test run started, at Tuesday, 17 January 2023 12:52 pm
+2023-01-17 12:56:52.8281 servr.integratex.ui.MappingForm Test run started, at Tuesday, 17 January 2023 12:56 pm
+2023-01-17 12:57:30.9337 servr.integratex.ui.MappingForm Test run started, at Tuesday, 17 January 2023 12:57 pm
+2023-01-17 13:38:27.8577 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 01:38 pm
+2023-01-17 13:38:31.8000 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 01:38 pm 
+2023-01-17 13:38:33.1721 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 01:38 pm
+2023-01-17 13:38:33.1787 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 01:38 pm
+2023-01-17 13:38:43.5543 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 01:38 pm
+2023-01-17 13:38:43.5543 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 01:38 pm
+2023-01-17 13:38:51.9909 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 17 January 2023 01:38 pm
+2023-01-17 13:39:35.5262 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 01:39 pm
+2023-01-17 13:39:36.5074 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 01:39 pm 
+2023-01-17 13:40:08.9022 servr.integratex.ui.MappingForm Test run started, at Tuesday, 17 January 2023 01:40 pm
+2023-01-17 15:01:12.6196 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1510
+2023-01-17 15:01:36.8300 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1510
+2023-01-17 15:52:17.9220 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 03:52 pm
+2023-01-17 15:52:21.8345 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 03:52 pm 
+2023-01-17 15:52:23.7119 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 03:52 pm
+2023-01-17 15:52:23.7569 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 03:52 pm
+2023-01-17 15:52:35.7659 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 03:52 pm
+2023-01-17 15:52:35.7729 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 03:52 pm
+2023-01-17 15:52:44.3406 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 17 January 2023 03:52 pm
+2023-01-17 15:53:06.9732 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 03:53 pm
+2023-01-17 15:53:07.9365 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 03:53 pm 
+2023-01-17 15:53:09.0754 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 03:53 pm
+2023-01-17 15:53:10.0339 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 03:53 pm 
+2023-01-17 16:04:14.6620 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 17 January 2023 04:04 pm
+2023-01-17 16:04:15.5526 servr.integratex.ui.BDULoginForm User noman.sinup@gmail.com login failed, try later or contact admin.
+2023-01-17 16:05:54.3032 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Tuesday, 17 January 2023 04:05 pm
+2023-01-17 16:05:55.1656 servr.integratex.ui.BDULoginForm User noman.sinup@gmail.com login failed, try later or contact admin.
+2023-01-17 16:06:12.4037 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 17 January 2023 04:06 pm
+2023-01-17 16:06:15.5598 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 17 January 2023 04:06 pm 
+2023-01-17 16:06:16.5318 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 04:06 pm
+2023-01-17 16:06:16.5415 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 04:06 pm
+2023-01-17 16:06:26.6987 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 17 January 2023 04:06 pm
+2023-01-17 16:06:26.6987 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 17 January 2023 04:06 pm
+2023-01-17 16:06:33.6099 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 17 January 2023 04:06 pm
+2023-01-17 16:08:29.5207 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:08:37.1502 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:08:44.4586 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:08:55.2184 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:09:07.8376 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:09:15.1164 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:09:23.3431 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:10:36.1748 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:10:43.5104 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:14:14.0743 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:15:00.3513 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:15:08.5152 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:15:14.6329 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91
+2023-01-17 16:15:24.4762 servr.integratex.ui.Program System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (D:\IX\aii\BDM Core\bin\Debug\net7.0-windows\Servr IntegrateX.dll.config line 19)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at servr.integratex.ui.Program.Main() in D:\IX\aii\BDM Core\Program.cs:line 91

@@ -1,0 +1,88 @@
+2023-02-15 12:21:47.3909 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 12:21 PM
+2023-02-15 12:21:52.6973 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Wednesday, 15 February 2023 12:21 PM 
+2023-02-15 12:21:53.7766 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 12:21 PM
+2023-02-15 12:21:53.8522 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 12:21 PM
+2023-02-15 12:22:54.4830 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2023-02-15 12:22:58.6673 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in D:\IX\aii\BDM Core\frmMain.cs:line 217
+2023-02-15 12:23:25.9038 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 12:23 PM
+2023-02-15 12:23:29.2162 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Wednesday, 15 February 2023 12:23 PM 
+2023-02-15 12:23:30.2401 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 12:23 PM
+2023-02-15 12:23:30.2516 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 12:23 PM
+2023-02-15 12:24:30.7255 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2023-02-15 12:24:34.5071 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in D:\IX\aii\BDM Core\frmMain.cs:line 217
+2023-02-15 12:25:17.2337 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 12:25 PM
+2023-02-15 12:25:20.5257 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Wednesday, 15 February 2023 12:25 PM 
+2023-02-15 12:25:21.4026 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 12:25 PM
+2023-02-15 12:25:21.4098 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 12:25 PM
+2023-02-15 12:26:21.6226 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2023-02-15 12:26:29.8633 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in D:\IX\aii\BDM Core\frmMain.cs:line 217
+2023-02-15 12:30:39.4404 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 12:30 PM
+2023-02-15 12:30:42.7558 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Wednesday, 15 February 2023 12:30 PM 
+2023-02-15 12:30:44.4728 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 12:30 PM
+2023-02-15 12:30:44.4815 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 12:30 PM
+2023-02-15 12:31:44.7992 BDU.RobotDesktop.DesktopSession IX-Failure Detected
+2023-02-15 12:31:57.0335 servr.integratex.ui.frmMain System.Exception: Unable to run the PMS, might be problem with PMS path, license or connection, Please contact: contact@servrhotels.com for assistance!
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in D:\IX\aii\BDM Core\frmMain.cs:line 217
+2023-02-15 12:34:38.9826 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 12:34 PM
+2023-02-15 12:34:40.0340 servr.integratex.ui.BDULoginForm User noman.sinup@gmail.com login failed, try later or contact admin.
+2023-02-15 12:34:54.9787 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 12:34 PM
+2023-02-15 12:34:58.3286 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Wednesday, 15 February 2023 12:34 PM 
+2023-02-15 12:34:59.3754 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 12:34 PM
+2023-02-15 12:34:59.4295 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 12:34 PM
+2023-02-15 12:35:09.4385 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 12:35 PM
+2023-02-15 12:35:09.4385 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 12:35 PM
+2023-02-15 12:35:18.3698 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 15 February 2023 12:35 PM
+2023-02-15 12:49:47.8389 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Wednesday, 15 February 2023 12:49 PM
+2023-02-15 12:49:47.8489 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 2/15/2023 12:49:47 PM
+2023-02-15 12:50:19.9837 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent to IntegrateX, at Wednesday, 15 February 2023 12:50 PM
+2023-02-15 13:01:11.7349 servr.integratex.ui.frmMain Logged out from IntegrateX, at Wednesday, 15 February 2023 01:01 PM
+2023-02-15 13:01:11.7829 BDU.RobotDesktop.DesktopHandler PMS Server stopped, at Wednesday, 15 February 2023 01:01 PM
+2023-02-15 13:01:11.8219 BDU.RobotDesktop.DesktopHandler System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BDU.RobotDesktop.DesktopHandler.StopServer() in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1651
+2023-02-15 13:01:57.4332 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 01:01 PM
+2023-02-15 13:02:00.8756 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Wednesday, 15 February 2023 01:02 PM 
+2023-02-15 13:02:02.7883 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 01:02 PM
+2023-02-15 13:02:02.8728 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 01:02 PM
+2023-02-15 13:02:11.7776 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 01:02 PM
+2023-02-15 13:02:11.7816 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 01:02 PM
+2023-02-15 13:02:20.0247 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 15 February 2023 01:02 PM
+2023-02-15 13:02:33.8556 servr.integratex.ui.frmMain Logged out from IntegrateX, at Wednesday, 15 February 2023 01:02 PM
+2023-02-15 13:02:33.8944 BDU.RobotDesktop.DesktopHandler PMS Server stopped, at Wednesday, 15 February 2023 01:02 PM
+2023-02-15 13:02:33.9337 BDU.RobotDesktop.DesktopHandler System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BDU.RobotDesktop.DesktopHandler.StopServer() in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1651
+2023-02-15 16:06:43.6260 servr.integratex.ui.BDULoginForm Login attempted by user using account hotel1@yopmail.com - at Wednesday, 15 February 2023 04:06 PM
+2023-02-15 16:06:47.6964 servr.integratex.ui.BDULoginForm user - hotel1@yopmail.com, login time is Wednesday, 15 February 2023 04:06 PM 
+2023-02-15 16:06:49.0451 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 04:06 PM
+2023-02-15 16:06:49.1432 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 04:06 PM
+2023-02-15 16:07:00.1219 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 04:07 PM
+2023-02-15 16:07:00.1219 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 04:07 PM
+2023-02-15 16:07:27.1078 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 15 February 2023 04:07 PM
+2023-02-15 16:09:23.3389 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Wednesday, 15 February 2023 04:09 PM
+2023-02-15 16:09:39.2938 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 2/15/2023 4:09:39 PM
+2023-02-15 16:11:17.5678 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1346
+2023-02-15 16:12:29.9170 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in D:\IX\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1346
+2023-02-15 16:13:46.5515 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Wednesday, 15 February 2023 04:13 PM
+2023-02-15 16:13:50.3051 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Wednesday, 15 February 2023 04:13 PM 
+2023-02-15 16:13:51.4401 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 04:13 PM
+2023-02-15 16:13:51.4502 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 04:13 PM
+2023-02-15 16:14:01.6948 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Wednesday, 15 February 2023 04:14 PM
+2023-02-15 16:14:01.6983 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Wednesday, 15 February 2023 04:14 PM
+2023-02-15 16:14:30.7420 servr.integratex.ui.frmMain IntegrateX started, at Wednesday, 15 February 2023 04:14 PM
+2023-02-15 16:15:09.3238 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Wednesday, 15 February 2023 04:15 PM
+2023-02-15 16:15:17.7669 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 2/15/2023 4:15:17 PM
+2023-02-15 16:30:05.4390 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent to IntegrateX, at Wednesday, 15 February 2023 04:30 PM

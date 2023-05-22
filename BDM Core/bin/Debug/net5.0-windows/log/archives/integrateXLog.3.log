@@ -1,0 +1,42 @@
+2023-02-10 16:03:37.1058 servr.integratex.ui.BDULoginForm Login attempted by user using account srv8@yopmail.com - at Friday, 10 February 2023 04:03 pm
+2023-02-10 16:03:40.5954 servr.integratex.ui.BDULoginForm user - srv8@yopmail.com, login time is Friday, 10 February 2023 04:03 pm 
+2023-02-10 16:03:50.2348 servr.integratex.ui.frmMain OpenQA.Selenium.DriverServiceNotFoundException: The file C:\movies\aii\BDM Core\Drivers\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+   at OpenQA.Selenium.DriverService..ctor(String servicePath, Int32 port, String driverServiceExecutableName, Uri driverServiceDownloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService..ctor(String executablePath, String executableFileName, Int32 port)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService(String driverPath)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory)
+   at BDU.RobotWeb.WebSession..ctor(WebBrowser browser) in D:\IX\aii\BDU.RobotWeb\WebSession.cs:line 23
+   at BDU.RobotWeb.WebHandler..ctor(MappingViewModel access) in D:\IX\aii\BDU.RobotWeb\WebHandler.cs:line 59
+   at servr.integratex.ui.frmMain.startPMSSession(Boolean start, PMS_VERSIONS sType) in D:\IX\aii\BDM Core\frmMain.cs:line 259
+2023-02-10 16:05:45.6381 servr.integratex.ui.BDULoginForm Login attempted by user using account srv8@yopmail.com - at Friday, 10 February 2023 04:05 pm
+2023-02-10 16:05:46.6251 servr.integratex.ui.BDULoginForm User srv8@yopmail.com login failed, try later or contact admin.
+2023-02-10 16:06:59.3437 servr.integratex.ui.BDULoginForm Login attempted by user using account srv8@yopmail.com - at Friday, 10 February 2023 04:06 pm
+2023-02-10 16:07:00.3444 servr.integratex.ui.BDULoginForm User srv8@yopmail.com login failed, try later or contact admin.
+2023-02-10 16:07:24.2851 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Friday, 10 February 2023 04:07 pm
+2023-02-10 16:07:25.2334 servr.integratex.ui.BDULoginForm User gm@nandinibali.com login failed, try later or contact admin.
+2023-02-10 16:07:42.2069 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Friday, 10 February 2023 04:07 pm
+2023-02-10 16:07:45.3022 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Friday, 10 February 2023 04:07 pm 
+2023-02-10 16:07:46.7427 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 10 February 2023 04:07 pm
+2023-02-10 16:07:46.8119 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 10 February 2023 04:07 pm
+2023-02-10 16:07:56.2587 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 10 February 2023 04:07 pm
+2023-02-10 16:07:56.2587 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 10 February 2023 04:07 pm
+2023-02-10 16:08:05.0935 servr.integratex.ui.frmMain IntegrateX started, at Friday, 10 February 2023 04:08 pm
+2023-02-10 16:09:40.6715 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Friday, 10 February 2023 04:09 pm
+2023-02-10 16:09:43.8772 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Friday, 10 February 2023 04:09 pm 
+2023-02-10 16:09:45.0201 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 10 February 2023 04:09 pm
+2023-02-10 16:09:45.0459 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 10 February 2023 04:09 pm
+2023-02-10 16:09:54.2693 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Friday, 10 February 2023 04:09 pm
+2023-02-10 16:09:54.2693 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Friday, 10 February 2023 04:09 pm
+2023-02-10 16:10:04.9485 servr.integratex.ui.frmMain IntegrateX started, at Friday, 10 February 2023 04:10 pm
+2023-02-10 16:10:55.5928 servr.integratex.ui.BDULoginForm Login attempted by user using account pmsStaging@yopmail.com - at Friday, 10 February 2023 04:10 pm
+2023-02-10 16:10:56.5626 servr.integratex.ui.BDULoginForm User pmsStaging@yopmail.com login failed, try later or contact admin.
+2023-02-11 14:00:21.1533 servr.integratex.ui.BDULoginForm Login attempted by user using account noman.sinup@gmail.com - at Saturday, 11 February 2023 02:00 PM
+2023-02-11 14:00:25.0720 servr.integratex.ui.BDULoginForm user - noman.sinup@gmail.com, login time is Saturday, 11 February 2023 02:00 PM 
+2023-02-11 14:00:27.1021 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Saturday, 11 February 2023 02:00 PM
+2023-02-11 14:00:27.1659 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Saturday, 11 February 2023 02:00 PM
+2023-02-11 14:00:36.0376 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Saturday, 11 February 2023 02:00 PM
+2023-02-11 14:00:36.0376 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Saturday, 11 February 2023 02:00 PM
+2023-02-11 14:00:45.6289 servr.integratex.ui.frmMain IntegrateX started, at Saturday, 11 February 2023 02:00 PM

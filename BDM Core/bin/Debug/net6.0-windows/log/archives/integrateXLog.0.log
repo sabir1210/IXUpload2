@@ -1,0 +1,184 @@
+2022-12-05 10:24:45.5359 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 11:55:26.2032 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 12:13:12.2542 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 12:13:48.0750 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 12:15:51.4408 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 12:15:56.5570 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 13:40:27.2927 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 13:42:10.4715 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 13:45:51.3563 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 13:46:13.7830 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 13:46:31.4459 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 15:00:15.7688 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 15:00:16.9268 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 15:00:22.5479 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 15:00:30.1600 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-05 15:00:31.3033 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915

@@ -1,0 +1,22 @@
+2022-12-06 10:08:09.7877 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-06 10:09:28.5043 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915

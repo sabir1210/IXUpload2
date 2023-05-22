@@ -1,0 +1,662 @@
+2022-12-20 12:42:20.7265 servr.integratex.ui.BDULoginForm System.Net.Http.HttpRequestException: Response status code does not indicate success: 503 (Service Unavailable).
+   at BDU.Services.BDUService.loadLogMailSettings(String email, String password) in C:\movies\aii\BDU.Services\BDUService.cs:line 405
+   at servr.integratex.ui.BDULoginForm.BDULoginForm_Load(Object sender, EventArgs e) in C:\movies\aii\BDM Core\BDULoginForm.cs:line 205
+2022-12-20 12:42:38.9944 servr.integratex.ui.BDULoginForm System.Net.Http.HttpRequestException: Response status code does not indicate success: 503 (Service Unavailable).
+   at BDU.Services.BDUService.saveAppLog(List`1 logls, Int32 hotel_id) in C:\movies\aii\BDU.Services\BDUService.cs:line 1119
+   at servr.integratex.ui.BDULoginForm.btnLogin_Click(Object sender, EventArgs e) in C:\movies\aii\BDM Core\BDULoginForm.cs:line 58
+2022-12-20 12:42:48.3743 servr.integratex.ui.BDULoginForm System.Net.Http.HttpRequestException: Response status code does not indicate success: 503 (Service Unavailable).
+   at BDU.Services.BDUService.saveAppLog(List`1 logls, Int32 hotel_id) in C:\movies\aii\BDU.Services\BDUService.cs:line 1119
+   at servr.integratex.ui.BDULoginForm.btnLogin_Click(Object sender, EventArgs e) in C:\movies\aii\BDM Core\BDULoginForm.cs:line 58
+2022-12-20 12:43:07.6341 servr.integratex.ui.BDULoginForm System.Net.Http.HttpRequestException: Response status code does not indicate success: 503 (Service Unavailable).
+   at BDU.Services.BDUService.loadLogMailSettings(String email, String password) in C:\movies\aii\BDU.Services\BDUService.cs:line 405
+   at servr.integratex.ui.BDULoginForm.BDULoginForm_Load(Object sender, EventArgs e) in C:\movies\aii\BDM Core\BDULoginForm.cs:line 205
+2022-12-20 12:44:56.7008 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 12:44 PM
+2022-12-20 12:45:00.6458 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 12:45 PM 
+2022-12-20 12:45:03.0091 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 12:45 PM
+2022-12-20 12:45:03.0091 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 12:45 PM
+2022-12-20 12:45:16.0992 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 12:45 PM
+2022-12-20 12:45:16.1039 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 12:45 PM
+2022-12-20 12:45:27.2047 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 20 December 2022 12:45 PM
+2022-12-20 13:09:52.8218 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 01:09 PM
+2022-12-20 13:09:52.8218 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 1:09:52 PM
+2022-12-20 13:10:13.2227 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Tuesday, 20 December 2022 01:10 PM
+2022-12-20 13:12:02.3681 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 01:12 PM
+2022-12-20 13:12:02.3681 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 1:12:02 PM
+2022-12-20 13:12:24.5043 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent to IntegrateX, at Tuesday, 20 December 2022 01:12 PM
+2022-12-20 13:13:54.7834 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 01:13 PM
+2022-12-20 13:13:54.7834 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 1:13:54 PM
+2022-12-20 13:13:56.6533 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 13:13:57.1631 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 13:16:58.2259 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 180 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1282
+2022-12-20 13:16:58.7461 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 13:16:59.1131 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 13:16:59.4997 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 13:16:59.8855 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 13:17:00.2923 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 13:17:00.9929 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 13:17:00.9929 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Tuesday, 20 December 2022 01:17 PM
+2022-12-20 13:59:17.2788 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 13:59:20.8687 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 13:59:23.1997 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 13:59:29.3976 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 13:59:30.7955 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 13:59:32.2022 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 14:00:10.9763 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 02:00 PM
+2022-12-20 14:00:10.9763 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 2:00:10 PM
+2022-12-20 14:00:34.8168 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Tuesday, 20 December 2022 02:00 PM
+2022-12-20 15:38:26.1349 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:38:39.3030 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1510
+2022-12-20 15:38:52.7092 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1510
+2022-12-20 15:38:54.3814 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:38:57.3895 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:38:59.1229 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:41:24.5096 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:41:37.8434 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1510
+2022-12-20 15:41:49.9625 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1510
+2022-12-20 15:41:51.6800 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:41:53.0655 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:41:54.4483 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:43:33.9583 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 03:43 PM
+2022-12-20 15:43:34.9433 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 03:43 PM 
+2022-12-20 15:50:59.7578 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:51:18.7011 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:51:20.4577 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:54:31.4371 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 03:54 PM
+2022-12-20 15:54:32.4057 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 03:54 PM 
+2022-12-20 15:55:16.1681 servr.integratex.ui.MappingForm Mapping save called, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:17.7925 servr.integratex.ui.MappingForm Mapping save called, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:19.3657 servr.integratex.ui.MappingForm Mapping save called, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:20.7696 servr.integratex.ui.MappingForm Mapping save & complete process started, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:23.1935 servr.integratex.ui.MappingForm Mapping save & complete process started, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:24.5869 servr.integratex.ui.MappingForm Mapping 'save & complete' completed successfully, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:38.2943 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:42.1348 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 03:55 PM 
+2022-12-20 15:55:43.6096 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:43.6096 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:55.0643 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:55:55.0643 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 03:55 PM
+2022-12-20 15:56:03.8001 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 20 December 2022 03:56 PM
+2022-12-20 15:56:16.1242 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:56:25.0563 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:56:28.9277 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:56:30.0952 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:56:32.1989 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 15:56:33.2194 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElements(String selector, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByAccessibilityId(String selector)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1408
+2022-12-20 15:57:21.6198 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 03:57 PM
+2022-12-20 15:57:25.4893 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 03:57 PM 
+2022-12-20 15:57:26.5946 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 03:57 PM
+2022-12-20 15:57:26.6047 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 03:57 PM
+2022-12-20 15:57:36.4748 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 03:57 PM
+2022-12-20 15:57:36.4782 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 03:57 PM
+2022-12-20 15:57:44.2707 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 20 December 2022 03:57 PM
+2022-12-20 16:55:38.5423 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 04:55 PM
+2022-12-20 16:55:41.7284 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 04:55 PM 
+2022-12-20 16:55:42.7437 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 04:55 PM
+2022-12-20 16:55:42.7437 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 04:55 PM
+2022-12-20 16:55:52.0249 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 04:55 PM
+2022-12-20 16:55:52.0249 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 04:55 PM
+2022-12-20 16:56:01.6953 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 20 December 2022 04:56 PM
+2022-12-20 16:57:10.8836 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 04:57 PM
+2022-12-20 16:57:10.8836 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 4:57:10 PM
+2022-12-20 16:57:35.9923 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent to IntegrateX, at Tuesday, 20 December 2022 04:57 PM
+2022-12-20 17:01:42.8162 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-20 17:02:59.9426 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 17:03:06.6126 BDU.RobotDesktop.DesktopHandler System.InvalidOperationException: The specified element ID is either null or the empty string.
+   at OpenQA.Selenium.Remote.RemoteWebElementFactory.GetElementId(Dictionary`2 elementDictionary)
+   at OpenQA.Selenium.Appium.CachedElementFactory`1.CreateElement(Dictionary`2 elementDictionary)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetElementsFromResponse(Response response)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElements(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1417
+2022-12-20 17:03:24.3770 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 17:03:26.3661 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 17:04:13.2476 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 05:04 PM
+2022-12-20 17:04:14.2308 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 05:04 PM 
+2022-12-20 17:04:15.0319 servr.integratex.ui.Login Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 05:04 PM
+2022-12-20 17:04:16.0382 servr.integratex.ui.Login user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 05:04 PM 
+2022-12-20 18:56:56.1097 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 06:56 PM
+2022-12-20 18:56:59.7974 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 06:56 PM 
+2022-12-20 18:57:01.8069 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 06:57 PM
+2022-12-20 18:57:01.8069 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 06:57 PM
+2022-12-20 18:57:10.9702 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 06:57 PM
+2022-12-20 18:57:10.9702 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 06:57 PM
+2022-12-20 18:57:19.7458 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 20 December 2022 06:57 PM
+2022-12-20 19:23:30.3533 servr.integratex.ui.BDULoginForm Login attempted by user using account gm@nandinibali.com - at Tuesday, 20 December 2022 07:23 PM
+2022-12-20 19:23:33.9901 servr.integratex.ui.BDULoginForm user - gm@nandinibali.com, login time is Tuesday, 20 December 2022 07:23 PM 
+2022-12-20 19:23:35.0933 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 07:23 PM
+2022-12-20 19:23:35.1094 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 07:23 PM
+2022-12-20 19:23:45.6538 BDU.RobotDesktop.DesktopHandler PMS Server starting.., at Tuesday, 20 December 2022 07:23 PM
+2022-12-20 19:23:45.6538 BDU.RobotDesktop.DesktopHandler PMS Server start process completed, at Tuesday, 20 December 2022 07:23 PM
+2022-12-20 19:23:52.6627 servr.integratex.ui.frmMain IntegrateX started, at Tuesday, 20 December 2022 07:23 PM
+2022-12-20 19:24:56.3212 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-20 19:25:00.2602 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 07:25 PM
+2022-12-20 19:25:00.2602 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 7:25:00 PM
+2022-12-20 19:25:35.5125 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Tuesday, 20 December 2022 07:25 PM
+2022-12-20 19:31:47.9104 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 07:31 PM
+2022-12-20 19:31:47.9104 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 7:31:47 PM
+2022-12-20 19:31:52.1549 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:31:53.4410 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:32:06.5138 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:32:08.2017 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:32:08.5798 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:32:08.9551 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:32:09.6543 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:32:10.3592 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:32:10.3774 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Tuesday, 20 December 2022 07:32 PM
+2022-12-20 19:33:03.7938 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 19:33:28.9460 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 19:33:32.1046 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElement(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindAndCachedElementWithFill(AppiumWebElement root, EntityFieldViewModel field, FormViewModel form, Boolean needFill) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1429
+2022-12-20 19:34:58.0008 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-20 19:35:05.6251 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 07:35 PM
+2022-12-20 19:35:05.6251 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 7:35:05 PM
+2022-12-20 19:35:44.1100 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Tuesday, 20 December 2022 07:35 PM
+2022-12-20 19:37:16.9450 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 07:37 PM
+2022-12-20 19:37:16.9450 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 7:37:16 PM
+2022-12-20 19:37:42.7953 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-20 19:37:43.0218 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent to IntegrateX, at Tuesday, 20 December 2022 07:37 PM
+2022-12-20 19:38:27.2142 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: Currently selected window has been closed
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.<>c__DisplayClass116_0.<ScanAndCaptureFound>b__0(MappingDefinitionViewModel x) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BDU.RobotDesktop.DesktopHandler.ScanAndCaptureFound(UiEvent curUIEvent) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1915
+2022-12-20 19:38:30.5958 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 07:38 PM
+2022-12-20 19:38:30.5958 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 7:38:30 PM
+2022-12-20 19:38:33.0037 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:38:34.1870 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:40:53.8733 BDU.RobotDesktop.DesktopHandler Reservation found & reservation data scan started, at Tuesday, 20 December 2022 07:40 PM
+2022-12-20 19:40:53.8733 BDU.RobotDesktop.DesktopHandler Data retreival process started, at 12/20/2022 7:40:53 PM
+2022-12-20 19:40:57.8769 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:40:58.6417 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:41:01.2003 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:41:04.6154 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:41:08.1607 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 2 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1367
+2022-12-20 19:41:11.0861 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:41:13.4950 BDU.RobotDesktop.DesktopHandler System.InvalidOperationException: The specified element ID is either null or the empty string.
+   at OpenQA.Selenium.Remote.RemoteWebElementFactory.GetElementId(Dictionary`2 elementDictionary)
+   at OpenQA.Selenium.Appium.CachedElementFactory`1.CreateElement(Dictionary`2 elementDictionary)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetElementsFromResponse(Response response)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElements(By by)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1331
+2022-12-20 19:41:15.7408 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:41:17.8675 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:41:21.1813 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:41:25.5009 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:41:25.5326 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent to IntegrateX, at Tuesday, 20 December 2022 07:41 PM
+2022-12-20 19:41:35.6557 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverTimeoutException: Timed out after 180 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1282
+2022-12-20 19:41:36.6574 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:41:37.5389 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:41:38.4345 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:41:39.3116 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:41:40.2188 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1345
+2022-12-20 19:41:41.7874 BDU.RobotDesktop.DesktopHandler OpenQA.Selenium.WebDriverException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumWebElement.FindElementByXPath(String xpath)
+   at BDU.RobotDesktop.DesktopHandler.FindScanningElementWithFill(AppiumWebElement root, EntityFieldViewModel field) in C:\movies\aii\RobotAutoApp\BDU.RobotDesktop\DesktopHandler.cs:line 1340
+2022-12-20 19:41:41.8006 BDU.RobotDesktop.DesktopHandler Data retreival from form scan finished and data sent for user interface, at Tuesday, 20 December 2022 07:41 PM
